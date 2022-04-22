@@ -13,7 +13,9 @@
                 extend: {
                     colors: {
                         rood: '#de2e33',
-                        geel: '#f0b600'
+                        geel: '#f0b600',
+                        donkerblauw: '#0059a2',
+                        wit: '#ffffff'
                     },
                     fontFamily: {
                         'main': "'Vollkorn', serif",
@@ -25,11 +27,15 @@
 </head>
 <body>
 <div class="container font-main">
-    <div class="row flex flex-col justify-center items-center max-h-max" style="height: 100vh; width: 100vw;">
-        <h1 class="hover:tracking-widest transition-all duration-800 text-3xl font-bold text-rood">
+    <div class="row flex flex-col justify-center items-center" style="height: 100vh; width: 100vw;">
+        <h1 class="hover:tracking-widest transition-all duration-800 text-6xl font-bold text-rood">
             Limburg.dao
         </h1>
-        <p class="text-geel hover:tracking-widest transition-all duration-800">waarsjienlik niks...</p>
+        <p class="text-geel hover:tracking-widest transition-all duration-800 text-3xl">waarsjienlik niks...</p>
+        <div class="p-4 mt-4 rounded-2xl bg-donkerblauw text-wit grid grid-cols-2 gap-4">
+            <a href="https://twitter.com/limburgdao" target="_blank"><img src="svg/twitter.svg" alt="twitter-logo"></a>
+            <a href="https://discord.gg/JHHdWaA2BB" target="_blank"><img src="svg/discord.svg" alt="discord-logo"></a>
+        </div>
     </div>
 </div>
 </body>
