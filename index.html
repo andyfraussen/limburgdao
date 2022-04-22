@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        rood: '#de2e33',
+                        geel: '#f0b600'
+                    },
+                    fontFamily: {
+                        'main': "'Vollkorn', serif",
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="container font-main">
+    <div class="row flex flex-col justify-center items-center max-h-max" style="height: 100vh; width: 100vw;">
+        <h1 class="hover:tracking-widest transition-all duration-800 text-3xl font-bold text-rood">
+            Limburg.dao
+        </h1>
+        <p class="text-geel hover:tracking-widest transition-all duration-800">waarsjienlik niks...</p>
+    </div>
+</div>
+</body>
+</html>
